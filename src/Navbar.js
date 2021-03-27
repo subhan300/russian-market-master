@@ -30,7 +30,8 @@ function Navbar() {
 
 
     return (
-        <div className={`nav ${show && "nav__black"}`}>
+        <div className={`nav ${show && "nav__black"}`}> 
+           
             <div className="logo"><img src={logo} /></div>
             <div className="menu__links">
                 <span className="links d-none"><MailOutlineIcon/></span>
